@@ -1,11 +1,11 @@
 //
 //  main.swift
-//  Algoritmos-Swift
+//  Exercicio-01
 //
 //  Created by Maxwell Silva on 22/02/25.
 //
 
 import Foundation
 
-print("Esta é sua lista de exercícios")
+print("Hello, World!")
 
