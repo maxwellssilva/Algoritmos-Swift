@@ -34,12 +34,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		827537B62D7FC79800B76799 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8268B60A2D6A884F00AC8D7F /* Algoritmos-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algoritmos-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8268B6182D6A886A00AC8D7F /* Exercicio-01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Exercicio-01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		827537AD2D7FC05600B76799 /* Exercicio-02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Exercicio-02"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827537B82D7FC79800B76799 /* Exercicio-03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Exercicio-03"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -56,6 +66,11 @@
 		827537AE2D7FC05600B76799 /* Exercicio-02 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Exercicio-02";
+			sourceTree = "<group>";
+		};
+		827537B92D7FC79800B76799 /* Exercicio-03 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Exercicio-03";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -82,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		827537B52D7FC79800B76799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +113,7 @@
 				8268B60C2D6A884F00AC8D7F /* Algoritmos-Swift */,
 				8268B6192D6A886A00AC8D7F /* Exercicio-01 */,
 				827537AE2D7FC05600B76799 /* Exercicio-02 */,
+				827537B92D7FC79800B76799 /* Exercicio-03 */,
 				8268B60B2D6A884F00AC8D7F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +124,7 @@
 				8268B60A2D6A884F00AC8D7F /* Algoritmos-Swift */,
 				8268B6182D6A886A00AC8D7F /* Exercicio-01 */,
 				827537AD2D7FC05600B76799 /* Exercicio-02 */,
+				827537B82D7FC79800B76799 /* Exercicio-03 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +198,28 @@
 			productReference = 827537AD2D7FC05600B76799 /* Exercicio-02 */;
 			productType = "com.apple.product-type.tool";
 		};
+		827537B72D7FC79800B76799 /* Exercicio-03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827537BC2D7FC79800B76799 /* Build configuration list for PBXNativeTarget "Exercicio-03" */;
+			buildPhases = (
+				827537B42D7FC79800B76799 /* Sources */,
+				827537B52D7FC79800B76799 /* Frameworks */,
+				827537B62D7FC79800B76799 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				827537B92D7FC79800B76799 /* Exercicio-03 */,
+			);
+			name = "Exercicio-03";
+			packageProductDependencies = (
+			);
+			productName = "Exercicio-03";
+			productReference = 827537B82D7FC79800B76799 /* Exercicio-03 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,6 +237,9 @@
 						CreatedOnToolsVersion = 16.1;
 					};
 					827537AC2D7FC05600B76799 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					827537B72D7FC79800B76799 = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
@@ -212,6 +261,7 @@
 				8268B6092D6A884F00AC8D7F /* Algoritmos-Swift */,
 				8268B6172D6A886A00AC8D7F /* Exercicio-01 */,
 				827537AC2D7FC05600B76799 /* Exercicio-02 */,
+				827537B72D7FC79800B76799 /* Exercicio-03 */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +282,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		827537A92D7FC05600B76799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827537B42D7FC79800B76799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,6 +482,28 @@
 			};
 			name = Release;
 		};
+		827537BD2D7FC79800B76799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J6NKQTZK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		827537BE2D7FC79800B76799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J6NKQTZK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,6 +539,15 @@
 			buildConfigurations = (
 				827537B12D7FC05600B76799 /* Debug */,
 				827537B22D7FC05600B76799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827537BC2D7FC79800B76799 /* Build configuration list for PBXNativeTarget "Exercicio-03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827537BD2D7FC79800B76799 /* Debug */,
+				827537BE2D7FC79800B76799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
